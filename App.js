@@ -3,7 +3,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
 import AppReducer from './src/reducers';
-import AppWithNavigationState from './src/navigator/AppNavigator';
+import AppWithNavigationState from './src/navigators/AppNavigator';
 
 class App extends Component {
   store = createStore(AppReducer);

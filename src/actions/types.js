@@ -1,0 +1,2 @@
+export const FECTH_VM_SUCCESS = 'FECTH_VM_SUCCESS';
+export const FECTH_VM_ERROR = 'FECTH_VM_ERROR';
